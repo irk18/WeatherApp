@@ -173,6 +173,7 @@ public class MainActivity extends AppCompatActivity {
                         weather.put("wind", win);
                         weather.put("lat", lat);
                         weather.put("lon", lon);
+
                         weather.put("temp_min", displaytemp(temp_min));
                         weather.put("temp_max", displaytemp(temp_max));
                         weather.put("hum", hum);
